@@ -1,0 +1,20 @@
+body {
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1275 - 300)));
+}
+
+.containerA {
+  width: 50vw;
+  margin: auto;
+  border: 10px tomato solid;
+}
+
+.containerB {
+  font-size: 1.5rem;
+  width: 50vw;
+  margin: auto;
+  border: 10px teal solid;
+}
+
+.containerB h1 {
+  font-size: 2.3125em;
+}

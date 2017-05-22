@@ -1,20 +1,36 @@
 body {
-  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1275 - 300)));
+  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1800 - 300)));
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+h1 {
+  font-size: calc(37px + (75 - 37) * ((100vw - 300px) / (1440 - 300)));
+}
+
+h3 {
+  font-size: calc(18px + (33 - 18) * ((100vw - 300px) / (1440 - 300)));
+}
+
+h6 {
+  font-size: calc(11px + (16 - 11) * ((100vw - 300px) / (1440 - 300)));
 }
 
 .containerA {
-  width: 50vw;
-  margin: auto;
-  border: 10px tomato solid;
+  background-color: tomato;
+  color: white
 }
 
 .containerB {
-  font-size: 1.5rem;
-  width: 50vw;
-  margin: auto;
-  border: 10px teal solid;
+  background-color: teal;
+  color: white
 }
 
-.containerB h1 {
-  font-size: 2.3125em;
+.textContainerA {
+  width: 50vw;
+  margin: auto;
+}
+
+.textContainerB {
+  width: 50vw;
+  margin: auto;
 }
